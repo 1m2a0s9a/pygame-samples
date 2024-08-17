@@ -65,6 +65,8 @@ BLACK_mc = param.BLACK_WOOL
 HINTCOLOR_mc = param.BROWN_WOOL
 GREEN_mc = param.GREEN_WOOL
 CURSOR_mc = param.SEA_LANTERN_BLOCK
+BLUE_mc = param.BLUE_WOOL
+RED_mc = param.RED_WOOL
 
 X0_mc, Y0_mc, Z0_mc = 8, 136, -80
 wait = 0.05
@@ -373,7 +375,7 @@ def drawBoard(board):
 
     # draw_board_mc()  # 緑のボードを描いて、黒い枠線を引く　毎回やるとまずいので、分離
 
-    # Draw the black & white tiles or hint spots.
+    # Draw the black & white tiles or hint spots.#oooo_mcのooooを上のほうで宣言したものを代入
     for x in range(BOARDWIDTH):
         for y in range(BOARDHEIGHT):
             centerx, centery = translateBoardToPixelCoord(x, y)
@@ -451,11 +453,11 @@ DISC_PATTERN[4] = ((0, 0, 0, 0, 0, 0, 0, 0),
 
 def draw_board_mc():
     # mc.setBlocks(X0_mc, Y0_mc, Z0_mc, X0_mc + 9 * 8, Y0_mc - 9 * 8, Z0_mc, param.AIR)
-    mc.setBlocks(X0_mc, Y0_mc, Z0_mc, X0_mc + 9 * 8, Y0_mc - 9 * 8, Z0_mc, param.GREEN_WOOL)
+    mc.setBlocks(X0_mc, Y0_mc, Z0_mc, X0_mc + 9 * 8, Y0_mc - 9 * 8, Z0_mc, param.BLUE_WOOL)
     for _x in range(9):
-        mc.setBlocks(X0_mc + 9 * _x, Y0_mc, Z0_mc, X0_mc + 9 * _x, Y0_mc - 9 * 8, Z0_mc, param.BLACK_WOOL)
+        mc.setBlocks(X0_mc + 9 * _x, Y0_mc, Z0_mc, X0_mc + 9 * _x, Y0_mc - 9 * 8, Z0_mc, param.RED_WOOL)
     for _y in range(9):
-        mc.setBlocks(X0_mc, Y0_mc - 9 * _y, Z0_mc, X0_mc + 9 * 8, Y0_mc - 9 * _y, Z0_mc, param.BLACK_WOOL)
+        mc.setBlocks(X0_mc, Y0_mc - 9 * _y, Z0_mc, X0_mc + 9 * 8, Y0_mc - 9 * _y, Z0_mc, param.RED_WOOL)
 
 
 def put_hint_mc(x, y):
