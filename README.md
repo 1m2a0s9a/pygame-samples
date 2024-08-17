@@ -13,12 +13,14 @@
 それができたらflippy_mc.pyを実行しよう
 
 <img width="608" alt="6" src="https://github.com/user-attachments/assets/45695991-5c98-46ea-966b-5c5000aed7bf">
-しっかり実行されるとこうなる
 
-次はオセロゲームだけど駒の色を変えてみよう
+## 3.駒の色を変えてみることもできます
 <img width="545" alt="7" src="https://github.com/user-attachments/assets/89fc4157-6fa0-4a11-bfd0-38d494d8fce7">
 
-   ## Finally
+## 4.ボードの色を変えてみよう   
+ 
+   <img width="402" alt="10" src="https://github.com/user-attachments/assets/30357298-8c19-4113-939d-fa622dfa43d5">
+## Finally
 
    These programs cannot run if you don't have Minecraft remote control environment.  
    <br>For more information, see <a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">Minecraft remote control</a>.
