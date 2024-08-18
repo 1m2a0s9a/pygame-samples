@@ -20,10 +20,6 @@
 ## 4.ボードの色を変えてみよう   
  
    <img width="402" alt="10" src="https://github.com/user-attachments/assets/30357298-8c19-4113-939d-fa622dfa43d5">
-## Finally
 
-   These programs cannot run if you don't have Minecraft remote control environment.  
-   <br>For more information, see <a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">Minecraft remote control</a>.
-
-   Program Overview in the file.　<a href="https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/Program_overview.md" target="_blank">Click me!</a>
+  
    
